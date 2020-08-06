@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Back-End (API) do projeto Proffy.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsnd --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glaucia86/nlw2-glaucia-lemos.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "typescript",
+    "knex",
+    "sqlite3",
+    "swa",
+    "azure-functions",
+    "serverless",
+    "github-actions",
+    "postgressql"
+  ],
+  "author": "Glaucia Lemos <@glaucia_lemos86 - Twitter>",
+  "bugs": {
+    "url": "https://github.com/glaucia86/nlw2-glaucia-lemos/issues"
+  },
+  "homepage": "https://github.com/glaucia86/nlw2-glaucia-lemos#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
